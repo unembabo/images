@@ -183,7 +183,7 @@
     <div style="width:28px;height:28px;background:#1e293b;color:#fff;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;margin-bottom:-10px;">#</div>
 
 
-<div class="card" style=" 
+<div class="card" style="  
   background:rgb(240, 243, 226);
   border-radius:12px;
   padding:16px;
@@ -195,10 +195,10 @@
   </div>
 
   <div style="font-size:13px;color:#64748b;margin-bottom:14px;">
-    아래 이미지를 참고해 미션 질문에 정확히 답변해 주세요
+    버튼 위치를 확인할 때 참고해 주세요
   </div>
 
-  <!-- 2 x 2 GRID -->
+  <!-- GRID -->
   <div style="
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -206,112 +206,106 @@
   ">
 
     <!-- 리뷰탭 -->
+<div>
+  <div style="
+    font-size:11px;
+    font-weight:700;
+    color:#334155;
+    margin-bottom:6px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    line-height:1.2;
+  ">
+    [리뷰탭- 방문자리뷰- 메뉴:대게- 최신순]
+  </div>
+
+  <div style="
+    border-radius:10px;
+    overflow:hidden;
+    border:1px solid #e5e7eb;
+    background:#fff;
+  ">
+    <img src="https://raw.githubusercontent.com/unembabo/images/main/review_teamleader.png"
+      style="
+        width:100%;
+        height:auto;               /* ✅ 이미지 비율대로 높이 자동 */
+        display:block;
+      ">
+  </div>
+</div>
+    <!-- 공유하기 -->
     <div>
-      <div style="font-size:12px;font-weight:700;color:#334155;margin-bottom:6px;">
-        [리뷰탭 · 방문자리뷰 · 메뉴: 대게 · 최신순]
-      </div>
       <div style="
-        height:260px;
+        font-size:12px;
+        font-weight:700;
+        color:#334155;
+        margin-bottom:6px;
+        margin-top:2px;
+      ">
+        [공유하기 · URL 복사 버튼]
+      </div>
+
+      <div style="
         border-radius:10px;
         overflow:hidden;
         border:1px solid #e5e7eb;
-        background:#fff;
+        background:rgb(240, 243, 226);
       ">
-        <img src="https://raw.githubusercontent.com/unembabo/images/main/review_teamleader.png"
+        <img src="https://raw.githubusercontent.com/unembabo/images/main/source_share.png"
           style="
             width:100%;
-            height:100%;
-            object-fit:contain;
-            object-position:center;
+            height:auto;
             display:block;
           ">
       </div>
     </div>
 
-    <!-- 길찾기 -->
-    <div>
-      <div style="font-size:12px;font-weight:700;color:#334155;margin-bottom:6px;">
-        [길찾기 · 추천거리]
-      </div>
-      <div style="
-        height:260px;
-        border-radius:10px;
-        overflow:hidden;
-        border:1px solid #e5e7eb;
-        background:#fff;
-        display:flex;
-        flex-direction:column;
+    <!-- 길찾기 (✅ 한 줄 전체폭 / ✅ 100% 전체 보이기) -->
+<!-- 길찾기 (한 줄 전체폭 / div가 이미지에 맞게) -->
+<div style="grid-column:1 / -1;">
+  <div style="font-size:12px;font-weight:700;color:#334155;margin-bottom:6px;">
+    [길찾기 · 추천거리]
+  </div>
+  <div style="
+    border-radius:10px;
+    overflow:hidden;
+    border:1px solid #e5e7eb;
+    background:#fff;
+  ">
+    <img src="https://raw.githubusercontent.com/unembabo/images/main/cutting.png"
+      style="
+        width:100%;
+        height:auto;               /* ✅ 이미지 비율대로 높이 자동 */
+        display:block;
       ">
-        <img src="https://raw.githubusercontent.com/unembabo/images/main/walking.png"
-          style="
-            width:100%;
-            height:50%;
-            object-fit:contain;
-            object-position:center;
-            display:block;
-          ">
-        <img src="https://raw.githubusercontent.com/unembabo/images/main/km.png"
-          style="
-            width:100%;
-            height:50%;
-            object-fit:contain;
-            object-position:center;
-            display:block;
-          ">
-      </div>
-    </div>
+  </div>
+</div>
 
-    <!-- 사진탭 -->
-    <div>
-      <div style="font-size:12px;font-weight:700;color:#334155;margin-bottom:6px;">
-        [사진탭 · 내부버튼]
-      </div>
-      <div style="
-        height:180px;
-        border-radius:10px;
-        overflow:hidden;
-        border:1px solid #e5e7eb;
-        background:#fff;
-      ">
+    <!-- 사진탭 (✅ 다음 행 / ✅ 100% 전체 보이기) -->
+ <div style="grid-column:1 / -1;">
+  <div style="font-size:12px;font-weight:700;color:#334155;margin-bottom:6px;">
+    [사진탭 · 내부버튼]
+  </div>
+  <div style="
+    border-radius:10px;
+    overflow:hidden;
+    border:1px solid #e5e7eb;
+    background:#fff;
+  ">
     <img src="https://raw.githubusercontent.com/unembabo/images/main/place_picture5.png"
       style="
         width:100%;
-        height:100%;
-        object-fit:cover;          /* ✅ 위아래 공백 제거(크롭) */
-        object-position:center;    /* 필요하면 'center 40%' 이런식으로 미세조정 */
+        height:auto;               /* ✅ 이미지 비율대로 높이 자동 */
         display:block;
       ">
-      </div>
-    </div>
-
-    <!-- 공유하기 -->
-    <div>
-      <div style="font-size:12px;font-weight:700;color:#334155;margin-bottom:6px;">
-        [공유하기 · URL 복사 버튼]
-      </div>
-      <div style="
-        height:180px;
-        border-radius:10px;
-        overflow:hidden;
-        border:1px solid #e5e7eb;
-        background:#fff;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-      ">
-    <img src="https://raw.githubusercontent.com/unembabo/images/main/source_share.png"
-      style="
-        width:100%;
-        height:100%;
-        object-fit:cover;          /* ✅ 여백 제거하고 꽉 채움 */
-        object-position:center;
-        display:block;
-      ">
-      </div>
-    </div>
+  </div>
+</div>
 
   </div>
 </div>
+
+
 
 
 
