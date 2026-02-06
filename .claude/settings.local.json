@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:raw.githubusercontent.com)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(del more_view.png narrow.png map.png share.png url_copy.png more_view22.png keyword2.png more_view_teamleader.png teamreader.png 1111.png review2.png total_share.png walking.png km.png place_picture4.png cutting.png)"
     ]
   }
 }
