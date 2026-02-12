@@ -4,7 +4,9 @@
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(python:*)",
       "Bash(del more_view.png narrow.png map.png share.png url_copy.png more_view22.png keyword2.png more_view_teamleader.png teamreader.png 1111.png review2.png total_share.png walking.png km.png place_picture4.png cutting.png)",
-      "Bash(del:*)"
+      "Bash(del:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(powershell -File - <<'PS1'\nAdd-Type -AssemblyName System.Drawing\n$img = [System.Drawing.Bitmap]::new\\(\"c:\\\\DevTools\\\\images\\\\navermap\\\\TEST2_cropped.png\"\\)\nWrite-Host \"Width: $\\($img.Width\\), Height: $\\($img.Height\\)\"\n$img.Dispose\\(\\)\nPS1)"
     ]
   }
 }
